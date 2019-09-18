@@ -1,0 +1,10 @@
+﻿@using EPiServer.Core
+@using EPiServer.Web.Mvc.Html
+@model AlloyTraining.Models.ViewModels.DefaultPageViewModel<AlloyTraining.Models.Pages.AboutUsPage>
+
+
+<h1>About Us Page</h1>
+@Html.PropertyFor(m => m.CurrentPage.Heading, new { @class = "text-success text-centre" })
+
+@Html.PropertyFor(m => m.CurrentPage.MainBody, new { @class = "" })
+@Html.PropertyFor(m => m.CurrentPage.AboutUsImage, new { @class = "img-rounded" })

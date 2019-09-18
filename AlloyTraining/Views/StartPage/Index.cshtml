@@ -1,0 +1,10 @@
+﻿@using AlloyTraining.Helpers
+@using AlloyTraining.Models.Pages
+@model AlloyTraining.Models.ViewModels.DefaultPageViewModel<AlloyTraining.Models.Pages.StartPage>
+
+
+
+<h2>Start Page</h2>
+@Html.PropertyFor(q => q.CurrentPage.Heading)
+@Html.PropertyFor(q => q.CurrentPage.MainBody)
+@Html.PropertyFor(q => q.CurrentPage.MainContentArea, new { CssClass = "row equal-height", tag = "span4" })
