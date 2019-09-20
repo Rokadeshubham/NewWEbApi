@@ -18,7 +18,7 @@ namespace AlloyTraining.Models.Pages
         //    GroupName = SystemTabNames.Content,
         //    Order = 1)]
 
-        [Display(Name="Heading", Order = 1)]
+        [Display(Name="Heading", GroupName = MyTabs.GroupNames.headerSection, Order = 1)]
         public virtual string Heading { get; set; }
 
         //[CultureSpecific]
@@ -32,7 +32,7 @@ namespace AlloyTraining.Models.Pages
         [Display(
             Name = "Main Body",
             Description = "The main body will be shown in the main content area of the page, using the XHTML-editor you can insert for example text, images and tables.",
-            GroupName = SystemTabNames.Content,
+            GroupName = MyTabs.GroupNames.headerSection,//PropertyBind with MyOwnTabs
             Order = 1)]
 
         public virtual XhtmlString MainBody { get; set; }
