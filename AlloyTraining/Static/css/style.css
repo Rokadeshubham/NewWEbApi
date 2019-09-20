@@ -1,4 +1,4 @@
-@charset "utf-8";
+﻿@charset "utf-8";
 /* CSS Document */
 
 /*Headers*/
@@ -409,7 +409,7 @@ ul {
     }
 
 .alloyMenu .navbar .nav>li>a {
-    color:#323335;
+    color:red;
     padding-bottom:12px;
     line-height:23px;
     text-shadow:none !important;
@@ -417,59 +417,59 @@ ul {
     }
 
 .alloyMenu .navbar .nav>li>a:hover {
-    background:#fff;
+    background:red ;
     text-shadow:none !important;
     color:#2980bd;
-    border-bottom:1px solid #2980bd;
+    border-bottom:1px solid red;
     }
 
 .alloyMenu .navbar .nav>li>a.theme1:hover {
-    background:#fff;
+    background:red;
     text-shadow:none !important;
     color:#EB5E31;
-    border-bottom:1px solid #EB5E31;
+    border-bottom:1px solid red;
     }
 
 .alloyMenu .navbar .nav>li>a.theme3:hover {
-    background:#fff;
+    background:red;
     text-shadow:none !important;
-    color:#9FC733;
-    border-bottom:1px solid #9FC733;
+    color:red;
+    border-bottom:1px solid red;
     }
 
 .alloyMenu .navbar .nav>li>a.theme2:hover {
-    background:#fff;
+    background:red;
     text-shadow:none !important;
-    color:#BF5D8C;
-    border-bottom:1px solid #BF5D8C;
+    color:red;
+    border-bottom:1px solid red;
     }
 
-.alloyMenu .navbar .nav>li.active>a {
-    background:#fff;
-    text-shadow:none !important;
-    color:#2980bd;
-    border-bottom:1px solid #2980bd;
+    .alloyMenu .navbar .nav > li.active > a {
+        background: rgba(0, 0, 0, 0.1);
+        text-shadow: none !important;
+        color: red;
+        border-bottom: 1px solid red;
     }
 
 .alloyMenu .navbar .nav>li.active>a.theme1 {
-    background:#fff;
+    background:red;
     text-shadow:none !important;
-    color:#EB5E31;
-    border-bottom:1px solid #EB5E31;
+    color:red;
+    border-bottom:1px solid red;
     }
 
 .alloyMenu .navbar .nav>li.active>a.theme3 {
-    background:#fff;
+    background:red;
     text-shadow:none !important;
-    color:#9FC733;
-    border-bottom:1px solid #9FC733;
+    color:red;
+    border-bottom:1px solid red;
     }
 
 .alloyMenu .navbar .nav>li.active>a.theme2 {
-    background:#fff;
+    background:red;
     text-shadow:none !important;
-    color:#BF5D8C;
-    border-bottom:1px solid #BF5D8C;
+    color:red;
+    border-bottom:1px solid red;
     }
 
 .alloyMenu .navbar ul {

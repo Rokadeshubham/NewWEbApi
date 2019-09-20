@@ -27,12 +27,13 @@
                     <img src="/Static/gfx/logotype.png" />
                 </div>
                 <div class="span10">
-                    @{Html.RenderPartial("Navigation");}
+                    @{Html.RenderPartial("Navigation", Model);}
                 </div>
             </div>
         </div>
         <hr />
         @RenderBody()
+        @{Html.RenderPartial("Footer", new FooterModel(Model.CurrentPage));}
     </div>
 </body>
 </html>
