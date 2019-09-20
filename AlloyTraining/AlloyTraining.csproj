@@ -251,6 +251,7 @@
     <Compile Include="Business\MobileChannel.cs" />
     <Compile Include="Business\MobileResolution.cs" />
     <Compile Include="Controllers\AboutUsPageController.cs" />
+    <Compile Include="Controllers\FAQPageController.cs" />
     <Compile Include="Controllers\ListingBlockController.cs" />
     <Compile Include="Controllers\NewsPageController.cs" />
     <Compile Include="Controllers\PageControllerBase.cs" />
@@ -278,6 +279,8 @@
     <Compile Include="Models\Blocks\TeaserBlock.cs" />
     <Compile Include="Models\Media\ImageFile.cs" />
     <Compile Include="Models\Pages\AboutUsPage.cs" />
+    <Compile Include="Models\Pages\FAQItem.cs" />
+    <Compile Include="Models\Pages\FAQPage.cs" />
     <Compile Include="Models\Pages\NewsPage.cs" />
     <Compile Include="Models\Pages\PreviewBlock.cs" />
     <Compile Include="Models\Pages\ProductPage.cs" />
@@ -307,6 +310,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="OneDrive_1_9-16-2019.zip" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Resources\LanguageFiles\Views.xml" />
@@ -405,6 +409,7 @@
     <Content Include="Views\Shared\SubNavigation.cshtml" />
     <Content Include="Views\SearchPage\Index.cshtml" />
     <Content Include="Views\Shared\Footer.cshtml" />
+    <Content Include="Views\FAQPage\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
