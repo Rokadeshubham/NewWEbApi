@@ -9,6 +9,7 @@ using EPiServer.SpecializedProperties;
 namespace AlloyTraining.Models.Pages
 {
     [ContentType(DisplayName = "NewsPage", GUID = "968293c5-22f2-4f57-bd5a-b5448fa21e62", Description = "")]
+    [ImageUrlAttribute("~/Static/gfx/page-type-thumbnail.png")]
     public class NewsPage : StandardPage
     {
       
