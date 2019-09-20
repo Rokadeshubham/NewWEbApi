@@ -320,6 +320,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="OneDrive_1_9-16-2019.zip" />
     <Content Include="module.config" />
+    <Content Include="Database.zip" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Plugins\DebugPlugin.aspx" />
